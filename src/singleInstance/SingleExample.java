@@ -8,8 +8,8 @@ public class SingleExample {
 
 
     public static void main(String args[]) {
-        SingleBean1.Test.INSTANCE.getInstance();
-        SingleBean1.Test.INSTANCE.getInstance();
+        SingleBean1.INSTANCE.getInstance();
+        SingleBean1.INSTANCE.getInstance();
 
         SingleBean2.getInstance();
         SingleBean2.getInstance();
